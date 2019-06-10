@@ -1,0 +1,39 @@
+{
+    "name": "cupoftea/composer-auto-normalize",
+    "type": "composer-plugin",
+    "description": "Provides a composer plugin that automatically normalizes your composer.json on install or update",
+    "keywords": [
+        "composer",
+        "normalizer",
+        "normalize",
+        "plugin"
+    ],
+    "homepage": "https://github.com/CupOfTea696/ComposerAutoNormalize",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Frankie Wittevrongel",
+            "email": "frankie@cupoftea.io"
+        }
+    ],
+    "require": {
+        "php": "^7.1",
+        "composer-plugin-api": "^1.1",
+        "localheinz/composer-normalize": "^1.2"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "class": "CupOfTea\\Composer\\Normalize\\AutoNormalizePlugin"
+    },
+    "autoload": {
+        "psr-4": {
+            "CupOfTea\\Composer\\Normalize\\": "src/"
+        }
+    },
+    "support": {
+        "issues": "https://github.com/CupOfTea696/ComposerAutoNormalize/issues",
+        "source": "https://github.com/CupOfTea696/ComposerAutoNormalize"
+    }
+}

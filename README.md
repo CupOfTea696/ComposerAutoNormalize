@@ -5,8 +5,8 @@
 [![Latest Unstable Version](https://poser.pugx.org/cupoftea/composer-auto-normalize/v/unstable)](https://packagist.org/packages/cupoftea/composer-auto-normalize)
 [![License](https://poser.pugx.org/cupoftea/composer-auto-normalize/license)](./LICENSE)
 
-Provides a composer plugin that extends [localheinz/composer-normalize][composer-normalize],
-and automatically normalizes your composer.json on install or update.
+Provides a composer plugin that extends [localheinz/composer-normalize][composer-normalize], and automatically
+normalizes your composer.json on install or update.
 
 ## Installation
 

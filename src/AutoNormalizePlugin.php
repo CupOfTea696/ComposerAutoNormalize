@@ -130,6 +130,10 @@ final class AutoNormalizePlugin implements PluginInterface, EventSubscriberInter
      */
     public function normalize(Event $event)
     {
+        if (! $this->composer->getPluginManager()->getGlobalComposer()) {
+            return;
+        }
+
         $app = $this->getApplication();
         $input = $this->getInput();
         $output = $this->getOutput();

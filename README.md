@@ -3,6 +3,7 @@
 [![Latest Stable Version](https://poser.pugx.org/cupoftea/composer-auto-normalize/v/stable)](https://packagist.org/packages/cupoftea/composer-auto-normalize)
 [![Total Downloads](https://poser.pugx.org/cupoftea/composer-auto-normalize/downloads)](https://packagist.org/packages/cupoftea/composer-auto-normalize)
 [![Latest Unstable Version](https://poser.pugx.org/cupoftea/composer-auto-normalize/v/unstable)](https://packagist.org/packages/cupoftea/composer-auto-normalize)
+[![StyleCI](https://github.styleci.io/repos/191241782/shield?style=flat)](https://github.styleci.io/repos/191241782)
 [![License](https://poser.pugx.org/cupoftea/composer-auto-normalize/license)](./LICENSE)
 
 Provides a composer plugin that extends [localheinz/composer-normalize][composer-normalize], and automatically

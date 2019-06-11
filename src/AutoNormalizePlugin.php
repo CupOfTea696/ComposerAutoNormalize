@@ -6,8 +6,8 @@ use Composer\Composer;
 use Composer\Script\Event;
 use Composer\IO\IOInterface;
 use CupOfTea\Package\Package;
-use Composer\Plugin\PluginEvents;
 use Composer\Plugin\CommandEvent;
+use Composer\Plugin\PluginEvents;
 use Composer\Script\ScriptEvents;
 use Composer\Plugin\PluginInterface;
 use Symfony\Component\Console\Input\ArrayInput;
@@ -99,7 +99,7 @@ final class AutoNormalizePlugin implements PluginInterface, EventSubscriberInter
     }
 
     /**
-     * Apply plugin modifications to Composer
+     * Apply plugin modifications to Composer.
      *
      * @param  Composer  $composer
      * @param  IOInterface  $io
